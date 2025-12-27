@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.auth-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    color: #3A3A3A;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3A3A3A;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+    background-color: #9f335a;
+}
+
+.auth-box p {
+    margin-top: 20px;
+}
+
+.auth-box p a {
+    color: #E02C6D;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.auth-box p a:hover {
+    text-decoration: underline;
+}

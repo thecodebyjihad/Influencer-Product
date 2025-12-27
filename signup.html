@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Influencer Products</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="auth.css">
+    <script src="https://kit.fontawesome.com/5a35b6a23c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!--nav-->
+        <nav class="container">
+            <h3><a href="index.html">Influencer Products</a></h3>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="signup.html">Sign up</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <!--nav end-->
+    </header>
+
+    <main>
+        <div class="auth-container">
+            <div class="auth-box">
+                <h2>Sign Up</h2>
+                <form>
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                    <button type="submit" class="auth-btn">Sign Up</button>
+                </form>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h2>Influencer Product</h2>
+            <p>Copyright © 2020 influencer products</p>
+               <p>All rights reserved</p>
+               
+              <div class="social">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+              </div>   
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

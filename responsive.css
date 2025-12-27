@@ -146,5 +146,15 @@
     background-color: #3A3A3A;
 }
 
+/* Cart Sidebar Responsive */
+.cart-sidebar {
+    width: 90%;
+    right: -100%; /* Ensure it's off-screen */
+}
+
+.cart-sidebar.cart-open {
+    right: 0;
+}
+
 
 }
